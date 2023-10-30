@@ -12,8 +12,6 @@ When(/^Я ввожу "([^"]*)" в "([^"]*)" в "([^"]*)"$/, async (value, elemen
 
     await $(elementSelector).setValue(valueSelector);
 
-
-
 });
 
 
