@@ -6,7 +6,7 @@ class Tournaments {
     }
 
     get slotopolisElement() {
-        return '//a[@href=\'/tournaments/slotopolis\']\n';
+        return '//a[@href=\'/tournaments/slotopolis\']';
     }
 }
 

@@ -13,7 +13,7 @@ class Profile {
     }
 
     get userStatusField(){
-        return '//span[@class=\'statuseName\']\n';
+        return '//span[@class=\'statuseName\']';
     }
 
 

@@ -6,7 +6,7 @@ class Bonuses {
     }
 
     get birthdayGiftElement() {
-        return '//*[@id=\'birthday\']\n';
+        return '//*[@id=\'birthday\']';
     }
 
 

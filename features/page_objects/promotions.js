@@ -10,16 +10,16 @@ class Promotions {
     }
 
     get firstActivePromoElement() {
-        return '(//div[@class=\'news-list__item\'])[1]\n';
+        return '(//div[@class=\'news-list__item\'])[1]';
     }
 
     get secondActivePromoElement() {
-        return '(//div[@class=\'news-list__item\'])[2]\n';
+        return '(//div[@class=\'news-list__item\'])[2]';
     }
 
     get firstInactivePromoElement() {
         return '//p[text()=\'Завершенные\']/following::div[@class=\'actions__items\']/' +
-            'div[@class=\'news-list__item\'][1]\n';
+            'div[@class=\'news-list__item\'][1]';
     }
 
 
@@ -27,13 +27,13 @@ class Promotions {
     get secondInactivePromoElement() {
 
         return '//p[text()=\'Завершенные\']/following::div[@class=\'actions__items\']/' +
-            'div[@class=\'news-list__item\'][2]\n';
+            'div[@class=\'news-list__item\'][2]';
 
     }
 
     get inactivePromosElement() {
 
-        return '//p[text()=\'Завершенные\']\n';
+        return '//p[text()=\'Завершенные\']';
 
     }
 }
