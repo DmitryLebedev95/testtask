@@ -10,12 +10,9 @@ When(/^Я ввожу "([^"]*)" в "([^"]*)" в "([^"]*)"$/, async (value, elemen
     const elementSelector = pageObjects[pageObject].elements[element];
     const valueSelector =  pageObjects[pageObject].values[value];
 
-    if (element === 'Поле Почта') {
-        await $(elementSelector).setValue(valueSelector);
+    await $(elementSelector).setValue(valueSelector);
 
-    } else if (element === 'Поле Пароль') {
-        await $(elementSelector).setValue(valueSelector);
-    }
+
 
 });
 
