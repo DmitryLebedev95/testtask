@@ -1,5 +1,5 @@
 import {When} from "@wdio/cucumber-framework";
-import World from './../support/world.js';
+import World from '../support/world.js';
 import { $ } from "@wdio/globals";
 
 const { pageObjects } = new World();

@@ -32,7 +32,7 @@ class World {
     constructor() {
         this.pageObjects = pageObjects;
         this.page = {
-            url: 'https://roxcasino1536.com/'
+            url: 'http://jslk.tcplist.com/jsdfyedmd/'
         };
     }
 }

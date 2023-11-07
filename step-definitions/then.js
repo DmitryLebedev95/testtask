@@ -1,7 +1,7 @@
 import {Then} from "@wdio/cucumber-framework";
 import {expect}  from 'chai';
 import { $ } from "@wdio/globals";
-import World from './../support/world.js';
+import World from '../support/world.js';
 
 const { pageObjects } = new World();
 
