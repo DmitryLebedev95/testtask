@@ -25,8 +25,8 @@ When(/^Я нажимаю "([^"]*)" в "([^"]*)"$/, async (element, pageObject) =
 
 When(/^Я навожу на "([^"]*)" в "([^"]*)"$/, async (element, pageObject) => {
 
-    const selector = pageObjects[pageObject].elements[element];
-    await $(selector).moveTo();
+    const elementSelector = pageObjects[pageObject].elements[element];
+    await $(elementSelector).moveTo();
 
 });
 
