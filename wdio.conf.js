@@ -1,3 +1,6 @@
+import { setOptions } from 'expect-webdriverio'
+
+
 export const config = {
     //
     // ====================
@@ -97,7 +100,7 @@ export const config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: "https://roxcasino1536.com",
+    // baseUrl: "https://roxcasino1536.com",
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 50000,
@@ -226,8 +229,17 @@ export const config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {object}         browser      instance of created browser/device session
      */
-    // before: function (capabilities, specs) {
-    // },
+
+    baseUrlMonro: 'https://ballet.spectaclemnro.com/flicks/',
+    baseUrlRox: 'http://jslk.tcplist.com/jsdfyedmd/',
+
+
+    before: function (capabilities, specs) {
+
+        const baseUrl = process.env.URL || this.baseUrlMonro;
+
+        global.baseUrl = baseUrl;
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {string} commandName hook command name

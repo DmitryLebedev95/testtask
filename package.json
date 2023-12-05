@@ -16,6 +16,8 @@
   "dependencies": {
     "@wdio/globals": "^8.20.5",
     "cucumber": "^6.0.7",
+    "expect": "^29.7.0",
+    "expect-webdriverio": "^4.5.1",
     "webdriverio": "^8.20.4"
   }
 }
