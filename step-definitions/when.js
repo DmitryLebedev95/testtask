@@ -50,7 +50,7 @@ When(/^Я задаю куки$/, async () => {
     // if(cookieName === "Выключение формы регистрации на браузер") {
        await browser.setCookies({
            name: "1P_JAR",
-           value: "2023-11-17-12"
+           value: "2023-11-17-13"
         });
     // }
 
