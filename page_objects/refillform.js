@@ -16,21 +16,6 @@ class RefillForm {
     get birthdayElement() {
         return '[data-test="profile_calendar_edit"]';
     }
-
-    // get yearElement() {
-    //     return '//span[@class="cell year" and text()="2002"]';
-    // }
-    //
-    // get monthElement() {
-    //     return '//span[@class="cell year" and text()="Январь"]';
-    // }
-
-
-
-
-
-
-
 }
 
 export default RefillForm;

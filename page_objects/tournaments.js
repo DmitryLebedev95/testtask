@@ -7,11 +7,11 @@ class Tournaments {
     }
 
     get slotopolisElement() {
-        return '//a[@href=\'/tournaments/slotopolis\']';
+        return '//a[@href="/tournaments/slotopolis"]';
     }
 
     get roxStarElement() {
-        return '//a[@href=\'/tournaments/roxstars\']';
+        return '//a[@href="/tournaments/roxstars"]';
     }
 }
 

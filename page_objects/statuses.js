@@ -6,7 +6,7 @@ class Statuses {
     }
 
     get eliteStatusElement() {
-        return '//p[@class=\'status-title\' and text()=\'elite\']';
+        return '//p[@class="status-title" and text()="elite"]';
     }
 
 }

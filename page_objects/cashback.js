@@ -6,7 +6,7 @@ class Cashback {
     }
 
     get howToGetCashbackElement() {
-        return '//h3[text()=\'Как получить Кешбэк?\']';
+        return '//h3[text()="Как получить Кешбэк?"]';
     }
 
 

@@ -13,23 +13,23 @@ class Promo {
     }
 
     get statusButton() {
-        return '//a[@href=\'/status\' and text()=\'СТАТУСЫ\']';
+        return '//a[@href="/status" and text()="СТАТУСЫ"]';
     }
 
     get tournamentsButton (){
-        return '//a[@href=\'/tournaments\' and text()=\'ТУРНИРЫ\']';
+        return '//a[@href="/tournaments" and text()="ТУРНИРЫ"]';
     }
 
     get bonusesButton () {
-        return '//a[@href=\'/bonus\' and text()=\'БОНУСЫ\']';
+        return '//a[@href="/bonus" and text()="БОНУСЫ"]';
     }
 
     get lotteryButton () {
-        return '//a[@href=\'/lottery\' and text()=\'ЛОТЕРЕИ\']';
+        return '//a[@href="/lottery" and text()="ЛОТЕРЕИ"]';
     }
 
     get cashBackButton () {
-        return '//a[@href=\'/cashback\']';
+        return '//a[@href="/cashback"]';
     }
 
     get newsButton () {
@@ -37,7 +37,7 @@ class Promo {
     }
 
     get promotionsButton () {
-        return '//a[@href=\'/promotions\' and text()=\'АКЦИИ\']';
+        return '//a[@href="/promotions" and text()="АКЦИИ"]';
     }
 }
 

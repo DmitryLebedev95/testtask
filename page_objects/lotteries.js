@@ -6,7 +6,7 @@ class Lotteries {
     }
 
     get showMoreButton() {
-        return '//a[@href=\'/lottery/rox-chart-eur\' and text()=\'Узнать больше\']';
+        return '//*[@href="/lottery/rox-chart-eur" and text()="Узнать больше"]';
     }
 }
 

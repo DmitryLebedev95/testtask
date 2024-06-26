@@ -7,11 +7,11 @@ class News {
     }
 
     get firstNewsElement() {
-        return '(//div[@class=\'news-list__item\'])[1]';
+        return '(//div[@class="news-list__item"])[1]';
     }
 
     get secondNewsElement() {
-        return '(//div[@class=\'news-list__item\'])[2]';
+        return '(//div[@class="news-list__item"])[2]';
     }
 }
 

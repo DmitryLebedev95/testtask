@@ -37,7 +37,5 @@ class Search {
         return '[data-test="winner__game-name_search"]';
     }
 
-
-
 }
 export default Search;

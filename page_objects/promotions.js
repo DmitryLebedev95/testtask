@@ -10,30 +10,30 @@ class Promotions {
     }
 
     get firstActivePromoElement() {
-        return '(//div[@class=\'news-list__item\'])[1]';
+        return '(//div[@class="news-list__item"])[1]';
     }
 
     get secondActivePromoElement() {
-        return '(//div[@class=\'news-list__item\'])[2]';
+        return '(//div[@class="news-list__item"])[2]';
     }
 
     get firstInactivePromoElement() {
-        return '//p[text()=\'Завершенные\']/following::div[@class=\'actions__items\']/' +
-            'div[@class=\'news-list__item\'][1]';
+        return '//p[text()="Завершенные"]/following::div[@class="actions__items"]/' +
+            'div[@class="news-list__item"][1]';
     }
 
 
 
     get secondInactivePromoElement() {
 
-        return '//p[text()=\'Завершенные\']/following::div[@class=\'actions__items\']/' +
-            'div[@class=\'news-list__item\'][2]';
+        return '//p[text()="Завершенные"]/following::div[@class="actions__items"]/' +
+            'div[@class="news-list__item"][2]';
 
     }
 
     get inactivePromosElement() {
 
-        return '//p[text()=\'Завершенные\']';
+        return '//p[text()="Завершенные"]';
 
     }
 }

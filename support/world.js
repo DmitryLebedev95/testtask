@@ -42,7 +42,7 @@ class World {
     constructor() {
         this.pageObjects = pageObjects;
         this.page = {
-            url: 'https://ballet.spectaclemnro.com/flicks/'
+            url: process.env.URL
         };
     }
 }

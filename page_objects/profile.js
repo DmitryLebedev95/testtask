@@ -9,11 +9,11 @@ class Profile {
 
 
     get userEmailField() {
-        return '//p[@class=\'label-input\']/span[@class=\'confirme\']';
+        return '//p[@class="label-input"]/span[@class="confirme"]';
     }
 
     get userStatusField(){
-        return '//span[@class=\'statuseName\']';
+        return '//span[@class="statuseName"]';
     }
 
 
