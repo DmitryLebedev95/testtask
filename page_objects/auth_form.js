@@ -18,11 +18,11 @@ class AuthForm {
             Германия: this.germanyButton
         }
         this.values = {
-            'Логин с подтвержденной почтой': 'd.lebedev+1@jetmail.cc',
-            Пароль: '123456789',
-            'Правильная Почта': 'd.lebedev+30@jetmail.cc',
-            'Правильный Пароль': '123456789',
-            'Правильный Телефон': '9452352352',
+            'Логин с подтвержденной почтой': process.env.EMAIL,
+            Пароль: process.env.PASSWORD,
+            'Правильная Почта': process.env.EMAI2,
+            'Правильный Пароль': process.env.PASSWORD2,
+            'Правильный Телефон': process.env.PHONE,
             'Случайная Почта': this.generateRandomEmail()
 
         }
